@@ -1,9 +1,10 @@
 :root {
-    --primary-color: #1dbc55;
+    --primary-color: #dbba00;
     --primary-light-color: #007045;
     --white-color: #ffffff;
     --white-light-color: #fffcfc;
     --black-color: #141718;
+    --black-light-color: #1c1f20;
   
     --nunito: 'Nunito', sans-serif;
   
@@ -15,7 +16,7 @@
 
     --padding-x: 1rem;
     --padding-y: 1rem;
-  }
+}
   
 
 @media (min-width: 720px) {

@@ -20,7 +20,6 @@
 <style>
 #musicSearch {
     padding: var(--padding-y) var(--padding-x);
-
 }
 
 .b-nav-form {
@@ -34,13 +33,22 @@
 }
 
 .b-nav-form .b-form-input {
-    width: 230px;
+    width: 265px;
     height: 50px;
     padding-right: 10px;
     padding-left: 20px;
     border-radius: 30px;
-    border: 1px solid #ced4da;
+    border: 1px solid var(--black-light-color);
     margin-right: 10px;
+    outline: none;
+    background-color: var(--black-light-color);
+    color: var(--white-color);
+}
+
+@media (min-width: 600px) {
+    .b-nav-form .b-form-input {
+        width: 450px;
+    }
 }
 
 @media (min-width: 720px) {
@@ -57,10 +65,6 @@
     border: 1px solid var(--primary-color);
     background-color: var(--primary-color);
     color: var(--white-color);
-    margin-right: 10px;
-    font-weight: 400;
-    font-style: normal;
-    font-variant: normal;
     line-height: 1;
     text-rendering: auto;
     display: inline-block;
