@@ -4,7 +4,7 @@
     <div class="container-flex">
       <div class="card" style="max-width: 20rem">
         <img
-          src="https://picsum.photos/600/400/?image=25"
+          src="@/assets/img/cbjr.jpeg"
           alt="Image"
           class="card-img-top"
         />
@@ -15,7 +15,7 @@
 
       <div class="card" style="max-width: 20rem">
         <img
-          src="https://picsum.photos/600/400/?image=25"
+          src="@/assets/img/cpi.jpeg"
           alt="Image"
           class="card-img-top"
         />
@@ -26,7 +26,7 @@
 
       <div class="card" style="max-width: 20rem">
         <img
-          src="https://picsum.photos/600/400/?image=25"
+          src="@/assets/img/isa.jpg"
           alt="Image"
           class="card-img-top"
         />
@@ -53,10 +53,6 @@ export default {
 </script>
 
 <style scoped>
-:root {
-  --round: 1rem;
-}
-
 .musicContent {
   padding: calc(var(--padding-y) + 5rem) var(--padding-x);
 }
@@ -82,6 +78,8 @@ export default {
 .card .card-img-top {
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
+  width: 100%;
+  height: 80%;
 }
 
 .card .card-body {
